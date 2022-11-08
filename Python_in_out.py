@@ -53,7 +53,17 @@ print("user age = ",age)'''
 # to run input()       go to play buttton option & select run python file  )
 
 #another way to take user input with cutom message
-name = input("enter value for name = ")
+'''name = input("enter value for name = ")
 age = input("enter value for age = ")
 print("user name = ",name)
+print("user age = ",age)'''
+
+#convert the type of data during the input
+name = input("enter value for name = ")
+age = int(input("enter value for age = "))
+print("user name = ",name)
 print("user age = ",age)
+
+print("Type of name = ",type(name))
+print("Type of age = ",type(age))
+
