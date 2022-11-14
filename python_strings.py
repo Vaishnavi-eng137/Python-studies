@@ -1,4 +1,5 @@
 #create a string in python , strings are immutable 
+#Every string method does not change the original string instead returns a new string with the changed attributes. 
 # string is also a sequential data structure just like list
 str1 = 'ineuron'
 str2 = "toyota"
