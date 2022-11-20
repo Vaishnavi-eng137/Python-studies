@@ -19,3 +19,16 @@ x=3
 y=5
 print(lambda_add_two_nums(x,y))
 
+#write a lambda function to concatenate two input strings
+
+lambda_add_two_strings = lambda x,y : x+y
+x = input("Enter first string:")
+y = input("Enter second string:")
+print(lambda_add_two_strings(x,y))
+
+#Write a lambda function to calculate max of two numbers
+
+lambda_calc_max_two = lambda x,y :x if x>y else y
+a = 6
+b = 8
+print(lambda_calc_max_two(a,b))
