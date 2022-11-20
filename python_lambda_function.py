@@ -52,3 +52,29 @@ list_b = [6,4,3]
 sum_two_list = lambda x,y: x+y
 sequence_list = list(map(sum_two_list,list_a,list_b))
 print(sequence_list)
+
+#How to use reduce?
+
+#To add all the bumbers present in a list
+import functools
+list_x = [3,4,6,7]
+
+add_two_nums = lambda x,y:x+y
+result = functools.reduce(add_two_nums, list_x)
+print(result)
+
+multiply_two_nums = lambda x,y:x*y
+result = functools.reduce(multiply_two_nums,list_x)
+print(result)
+
+#How to use filter
+
+seq = [1,23,4,9,6]
+
+filter_even_num = lambda x:x%2==0 
+result=list(filter(filter_even_num, seq))
+print(result)
+
+filter_odd_num = lambda x:x%2 !=0 
+result=list(filter(filter_odd_num, seq))
+print(result)
