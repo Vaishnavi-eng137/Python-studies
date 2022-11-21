@@ -21,5 +21,5 @@ emp2.displayEmployeeInfo()
 print(emp1.emp_name)
 print(emp2.emp_name)
 
-#Difference between class variable and instance variable
+
 
